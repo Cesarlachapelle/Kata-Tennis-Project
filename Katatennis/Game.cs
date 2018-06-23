@@ -18,7 +18,7 @@ namespace Katatennis
         public string GetScore()
         {
 
-            if (Player1.Score >= 3 && Player2.Score >= 3)
+            if (Player1.Score >= 3 || Player2.Score >= 3)
             {
                 if (Player1.Score == Player2.Score)
                 {
@@ -26,13 +26,18 @@ namespace Katatennis
                 }
                 if (Math.Abs(Player1.Score - Player2.Score) >= 2)
                 {
-                    return (Player1.Score > Player2.Score) ? Player1.Name + " won" : Player2.Name + " won";
+                    return LeadPlayer() + " won";
                 }
-                return (Player1.Score > Player2.Score) ? Player1.Name + " has the advantage" : Player2.Name + " has the advantage";
+                return LeadPlayer() + " has the advantage";
 
 
             }
             return Player1.GetStoreDescription() + "-" + Player2.GetStoreDescription();
+        }
+
+        public string LeadPlayer()
+        {
+            return (Player1.Score > Player2.Score) ? Player1.Name  : Player2.Name;
         }
     }
 }

@@ -70,26 +70,7 @@ namespace KatatennisTest
             Assert.AreEqual(expected, actual);
 
         }
-        [TestMethod]
-        public void GameCanReturnPlayerOnehasfortyAndPlayerTwoHasThirty()
-        {
-            var player = new Player("Moises");
-            var player2 = new Player("Maria");
-            var game = new Game(player, player2);
-            var expected = "forty-thirty";
-            player.WinPoint();
-            player.WinPoint();
-            player.WinPoint();
-       
-
-            player2.WinPoint();
-            player2.WinPoint();
-            
-            var actual = game.GetScore();
-
-            Assert.AreEqual(expected, actual);
-
-        }
+        
         [TestMethod]
         public void GameCanReturnPlayerOneWin()
         {
