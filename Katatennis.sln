@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katatennis", "Katatennis\Katatennis.csproj", "{BE5AB252-C89D-4E6A-A0C7-463816AC93CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatatennisTest", "KatatennisTest\KatatennisTest.csproj", "{DA41B4D6-E6E8-468A-9049-02755E600F82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE5AB252-C89D-4E6A-A0C7-463816AC93CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5AB252-C89D-4E6A-A0C7-463816AC93CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5AB252-C89D-4E6A-A0C7-463816AC93CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5AB252-C89D-4E6A-A0C7-463816AC93CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA41B4D6-E6E8-468A-9049-02755E600F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA41B4D6-E6E8-468A-9049-02755E600F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA41B4D6-E6E8-468A-9049-02755E600F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA41B4D6-E6E8-468A-9049-02755E600F82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {870053CB-0032-4B3C-8909-B828F580CAD9}
+	EndGlobalSection
+EndGlobal
